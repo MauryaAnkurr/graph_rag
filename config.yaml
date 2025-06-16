@@ -1,0 +1,22 @@
+openai:
+  model_name: "GPT-4o-mini"
+  temperature: 0.0
+  max_tokens: 3000
+  request_timeout: 60
+  api_version: ""
+  api_key: ""
+  azure_endpoint: ""
+
+neo4j:
+  uri: "neo4j+s://86d9ea79.databases.neo4j.io"
+  username: "neo4j"
+  password: "hmJb2vdDS70eJrmiBLnz_m9G9X8t01gNwHtwxvSTLv4"
+  database: "neo4j"
+
+filestorage:
+  file_url: "https://www.gutenberg.org/cache/epub/1342/pg1342.txt"
+  local_path: "pride_and_prejudice.txt"
+  document_pickle: "documents_chunks_1.pkl"
+  embedding_file: "embeddings_updated_1.npy"
+  hnslib_index: "hnsw_index_updated_1.bin"
+  sentence_tranformer: "all-MiniLM-L6-v2"
